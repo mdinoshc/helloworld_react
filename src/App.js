@@ -1,23 +1,19 @@
 import logo from './logo.svg';
+import Classcomponents from './components/Classcomponents';
+import Functionalcomponents from './components/Functionalcomponents';
+import ManageState from './components/ManageState';
+import Hooks from './components/Hooks';
+import Arrays from './components/Arrays';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Classcomponents name="Dinosh" age="24"/> */}
+      {/* <Functionalcomponents name="Chriton" age="25" /> */}
+      {/* <ManageState/> */}
+      {/* <Hooks/> */}
+      <Arrays/>>
     </div>
   );
 }
